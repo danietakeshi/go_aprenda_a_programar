@@ -1,0 +1,98 @@
+
+##Curso Go - Aprenda a Programar
+
+## Capítulo 9 - Exercícios nível 4
+
+1) Usando uma literal composta:
+     - Crie um array que suporte 5 valores to tipo int
+     - Atribua valores aos seus índices
+	 - Utilize range e demonstre os valores do array.
+	 - Utilizando format printing, demonstre o tipo do array.
+Resposta: https://play.golang.org/p/QwUilfJBR6-
+
+2) Usando uma literal composta:
+     - Crie uma slice de tipo int
+     - Atribua 10 valores a ela
+	 - Utilize range para demonstrar todos estes valores.
+	 - E utilize format printing para demonstrar seu tipo.
+Resposta: https://play.golang.org/p/Iltkwp41pYB
+
+3) Utilizando como base o exercício anterior, utilize slicing para demonstrar os valores:
+     - Do primeiro ao terceiro item do slice (incluindo o terceiro item!)
+     - Do quinto ao último item do slice (incluindo o último item!)
+     - Do segundo ao sétimo item do slice (incluindo o sétimo item!)
+     - Do terceiro ao penúltimo item do slice (incluindo o penúltimo item!)
+     - Desafio: obtenha o mesmo resultado acima utilizando a função len() para determinar o penúltimo item
+Resposta: https://play.golang.org/p/UmtUjrzDhdO
+
+4) Começando com a seguinte slice:
+     - x := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
+	 - Anexe a ela o valor 52;
+	 - Anexe a ela os valores 53, 54 e 55 utilizando uma única declaração;
+	 - Demonstre a slice;
+	 - Anexe a ela a seguinte slice:
+		- y := []int{56, 57, 58, 59, 60}
+	 - Demonstre a slice x
+Resposta: https://play.golang.org/p/R-3IEsCOVzv
+
+5) Comece com essa slice:
+     - x := []int{42, 43, 44, 45, 46, 47, 48, 49, 50, 51}
+	 - Utilizando slicing e append, crie uma slice y que contenha os valores:
+     - [42, 43, 44, 48, 49, 50, 51]
+Resposta: https://play.golang.org/p/ycOl_BMXjWq
+
+6) Crie uma slice usando make que possa conter todos os estados do Brasil.
+     - Os estados: "Acre", "Alagoas", "Amapá", "Amazonas", "Bahia", "Ceará", "Espírito Santo", "Goiás", "Maranhão", "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte", "Rio Grande do Sul", "Rondônia", "Roraima", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins"
+	 - Demonstre o len e cap da slice.
+	 - Demonstre todos os valores da slice *sem utilizar range.*
+Resposta: https://play.golang.org/p/qHMyyj5_qmS
+
+7) Crie uma slice contendo slices de strings ([][]string). Atribua valores a este slice multi-dimensional da seguinte maneira:
+     - "Nome", "Sobrenome", "Hobby favorito"
+	 - Inclua dados para 3 pessoas, e utilize range para demonstrar estes dados
+Resposta: https://play.golang.org/p/htGRuyJ5-wb
+
+8) Crie um map com key tipo string e value tipo []string.
+     - Key deve conter nomes no formato sobrenome_nome
+     - Value deve conter os hobbies favoritos da pessoa
+	 - Demonstre todos esses valores e seus índices
+Respota: https://play.golang.org/p/ki6ifuqccPc
+
+9 e 10) Utilizando o exercício anterior, adicione uma entrada ao map e demonstre o map inteiro utilizando range.
+Resposta: https://play.golang.org/p/pCqhrY9HggK
+
+## Capítulo 11 - Exercícios nível 5
+
+1) Crie um tipo "pessoa" com tipo subjacente struct, que possa conter os seguintes campos:
+     - Nome
+     - Sobrenome
+     - Sabores favoritos de sorvete
+	 - Crie dois valores do tipo "pessoa" e demonstre estes valores, utilizando range na slice que contem os sabores de sorvete.
+Resposta: https://play.golang.org/p/V2lPo18o4ZM
+
+2) Utilizando a solução anterior, coloque os valores do tipo "pessoa" num map, utilizando os sobrenomes como key.
+	 - Demonstre os valores do map utilizando range.
+	 - Os diferentes sabores devem ser demonstrados utilizando outro range, dentro do range anterior.
+Resposta: https://play.golang.org/p/wCuDc6jiUTT
+
+3) Crie um novo tipo: veículo
+     - O tipo subjacente deve ser struct
+     - Deve conter os campos: portas, cor
+	 - Crie dois novos tipos: caminhonete e sedan
+     - Os tipos subjacentes devem ser struct
+     - Ambos devem conter "veículo" como struct embutido
+     - O tipo caminhonete deve conter um campo bool chamado "traçãoNasQuatro"
+     - O tipo sedan deve conter um campo bool chamado "modeloLuxo"
+	 - Usando os structs veículo, caminhonete e sedan:
+     - Usando composite literal, crie um valor de tipo caminhonete e dê valores a seus campos
+     - Usando composite literal, crie um valor de tipo sedan e dê valores a seus campos
+	 - Demonstre estes valores.
+	 - Demonstre um único campo de cada um dos dois.
+Resposta: https://play.golang.org/p/0U6z1LU1IOk
+
+4) Crie e use um struct anônimo.
+	 - Desafio: dentro do struct tenha um valor de tipo map e outro do tipo slice.
+Resposta: https://play.golang.org/p/i2E-J4yoFE0
+	 
+	 
+
