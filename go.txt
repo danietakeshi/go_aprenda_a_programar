@@ -95,4 +95,11 @@ Resposta: https://play.golang.org/p/0U6z1LU1IOk
 Resposta: https://play.golang.org/p/i2E-J4yoFE0
 	 
 	 
+## Capítulo 12 - Aula 9 - Exercícios
+Resposta: https://play.golang.org/p/jnA9FTzCYon
+
+
+
+
+	 
 
