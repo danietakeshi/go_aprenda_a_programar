@@ -117,3 +117,27 @@ Resposta: https://play.golang.org/p/AxPX8NR975Y
 Resposta: https://play.golang.org/p/T83yXDjQLbz
 	 
 
+## Capítulo 17 - Exercícios nível 8
+
+1) Partindo do código abaixo, utilize marshal para transformar []user em JSON.
+	 - https://play.golang.org/p/U0jea43X55
+	 - Atenção! Tem pegadinha aqui.
+Resposta: https://play.golang.org/p/DbizKafeRNg
+
+2) Partindo do código abaixo, utilize unmarshal e demonstre os valores.
+     - https://play.golang.org/p/b_UuCcZag9
+Resposta: https://play.golang.org/p/c91w3AHUm-k
+
+3) Partindo do código abaixo, utilize NewEncoder() e Encode() para enviar as informações como JSON para Stdout.
+     - https://play.golang.org/p/BVRZTdlUZ_
+	 - Desafio: descubra o que é, e utilize, method chaining para conectar os dois métodos acima.
+Resposta: https://play.golang.org/p/hHFQIeDIHOW
+
+4) Partindo do código abaixo, ordene a []int e a []string.
+     - https://play.golang.org/p/H_q75mpmHW
+Resposta: https://play.golang.org/p/Ig3g-RPkLtp
+
+5) Partindo do código abaixo, ordene os []user por idade e sobrenome.
+     - https://play.golang.org/p/BVRZTdlUZ_
+	 - Os valores no campo Sayings devem ser ordenados tambem, e demonstrados de maneira esteticamente harmoniosa.
+Resposta: https://play.golang.org/p/cg1mSoZVc7A
